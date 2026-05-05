@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Large simulation outputs — use Git LFS or store externally
+results/data/*.npy
+results/data/*.npz
+
+.DS_Store
