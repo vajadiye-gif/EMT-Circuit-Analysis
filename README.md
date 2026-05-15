@@ -61,7 +61,7 @@ SNAIL ──→ ZEB                  (positive feed-forward)
   Replace with: results/figures/circuit_diagram.png
   Suggested: a clean circular diagram of the 4 nodes with arrow types (→ activation, ─┤ repression)
 -->
-> 📷 *[Circuit diagram — add `results/figures/circuit_diagram.png` here]*
+![Circuit Diagram](https://github.com/vajadiye-gif/EMT-Circuit-Analysis/blob/main/results/figures/circuit_diagram.png)
 
 ### State Vector
 
@@ -272,8 +272,7 @@ Run the notebooks **in order** — later notebooks import variables computed in 
   Content: two-panel — mZEB vs I (left), mZEB vs SNAIL phase portrait (right)
   Three coloured branches: blue (E), red (M), green (Hybrid)
 -->
-> 📷 *[Bifurcation diagram — add `results/figures/bifurcation_ode.png` here]*
-
+![Tristability Portrait](https://github.com/vajadiye-gif/EMT-Circuit-Analysis/blob/main/results/figures/tristability_mZEB_vs_SNAIL.png)
 ---
 
 ### `02_mZEB_concentration_evolution.ipynb` — Basin of Attraction Mapping
@@ -294,7 +293,7 @@ Run the notebooks **in order** — later notebooks import variables computed in 
   Replace with: results/figures/basin_robustness.png
   Content: left panel = 105 mZEB trajectories (blue/red/green); right = scatter of final mZEB vs perturbation factor
 -->
-> 📷 *[Basin of attraction map — add `results/figures/basin_robustness.png` here]*
+![Basin of Attraction](https://github.com/vajadiye-gif/EMT-Circuit-Analysis/blob/main/results/figures/mZEB_evolution.png)
 
 ---
 
@@ -324,7 +323,7 @@ Run the notebooks **in order** — later notebooks import variables computed in 
   Replace with: results/figures/rd_bifurcation_comparison.png
   Content: overlay of ODE 3-branch diagram (faint) vs RD 2-branch diagram (bold)
 -->
-> 📷 *[RD vs ODE bifurcation comparison — add `results/figures/rd_bifurcation_comparison.png` here]*
+![RD Bistability](https://github.com/vajadiye-gif/EMT-Circuit-Analysis/blob/main/results/figures/full_RD_bistability.png)
 
 ---
 
