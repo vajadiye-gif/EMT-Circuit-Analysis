@@ -519,23 +519,30 @@ display(play)
 ## Mathematical Formulation
 
 ### ODE System
-
 The full system is:
 
-$$
-\dot{x}_i = f_i(x_0, \ldots, x_6), \quad i = 0, \ldots, 6
-$$
+```math
+\dot{x}_i = f_i(x_0, \dots, x_6), \quad i = 0, \dots, 6
+```
 
-**miR-200** (x₀):
-$$\dot{x}_0 = g_{\text{miR200}} \cdot H(x_2, \theta_{200,Z}) \cdot H(x_3, \theta_{200,S}) - x_1 \cdot \gamma_{\text{miR200}}^{\text{eff}} - k_{\text{miR200}} x_0$$
+**miR-200 ($x_0$):**
+```math
+\dot{x}_0 = g_{\text{miR200}} \cdot H(x_2, \theta_{200,Z}) \cdot H(x_3, \theta_{200,S}) - x_1 \cdot \gamma_{\text{miR200}}^{\text{eff}} - k_{\text{miR200}} x_0
+```
 
-**mZEB** (x₁):
-$$\dot{x}_1 = g_{\text{mZEB}} \cdot H(x_2, \theta_{Z,Z}) \cdot H(x_3, \theta_{Z,S}) - x_1 \cdot \gamma_{\text{mZEB}}^{\text{eff}} - k_{\text{mZEB}} x_1$$
+**mZEB ($x_1$):**
+```math
+\dot{x}_1 = g_{\text{mZEB}} \cdot H(x_2, \theta_{Z,Z}) \cdot H(x_3, \theta_{Z,S}) - x_1 \cdot \gamma_{\text{mZEB}}^{\text{eff}} - k_{\text{mZEB}} x_1
+```
 
-**ZEB** (x₂):
-$$\dot{x}_2 = g_{\text{ZEB}} \cdot x_1 \cdot T_{\text{mZEB}}^{\text{eff}} - k_{\text{ZEB}} x_2$$
+**ZEB ($x_2$):**
+```math
+\dot{x}_2 = g_{\text{ZEB}} \cdot x_1 \cdot T_{\text{mZEB}}^{\text{eff}} - k_{\text{ZEB}} x_2
+```
 
-where $\gamma^{\text{eff}}$ and $T^{\text{eff}}$ are the effective degradation rates and translational efficiencies arising from the combinatorial miRNA–mRNA binding model (summed over all occupancy states of the binding sites). See `src/ode/emt_ode.py` for the complete expressions.
+Where $\gamma^{\text{eff}}$ and $T^{\text{eff}}$ are the effective degradation rates and translational efficiencies arising from the combinatorial miRNA–mRNA binding model.
+
+See `src/ode/emt_ode.py` for the complete expressions.
 
 ### Reaction-Diffusion System
 
