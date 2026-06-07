@@ -316,8 +316,7 @@ Run the notebooks **in order** — later notebooks import variables computed in 
   Content: 4–6 heatmap panels (e.g. ZEB concentration) at t=0, 250, 500, 750, 1000
   showing the M-patch expanding from the centre
 -->
-> 📷 *[RD heatmap time sequence — add `results/figures/rd_heatmap_sequence.png` here]*
-
+![RD Heatmap Time Sequence](https://github.com/vajadiye-gif/EMT-Circuit-Analysis/blob/main/results/figures/Time_Evolution.gif)
 <!-- 
   FIGURE PLACEHOLDER (optional)
   Replace with: results/figures/rd_bifurcation_comparison.png
@@ -343,7 +342,7 @@ Run the notebooks **in order** — later notebooks import variables computed in 
   Content: stacked KDE plots at 5–6 time points, or a 2D density plot (frame vs eigenvalue)
   showing the outlier separating from the bulk
 -->
-> 📷 *[RMT eigenvalue evolution — add `results/figures/rmt_eigenvalue_evolution.png` here]*
+![Eigenvalue Evolution](https://github.com/vajadiye-gif/EMT-Circuit-Analysis/blob/main/results/figures/RMT.gif)
 
 ---
 
